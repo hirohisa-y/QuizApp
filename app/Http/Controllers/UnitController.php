@@ -20,7 +20,7 @@ class UnitController extends Controller
      */
     public function create()
     {
-        //
+        return view('units.create');//
     }
 
     /**
