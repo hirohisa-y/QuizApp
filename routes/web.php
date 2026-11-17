@@ -12,4 +12,5 @@ Route::get('/', function () {
 Route::prefix('units')->name('units.')->group(function () {
     Route::get('/', [UnitController::class, 'index'])->name('index');
     Route::get('/create', [UnitController::class, 'create'])->name('create');
-    });
+    Route::get('/edit', [UnitController::class, 'edit'])->name('edit');
+});

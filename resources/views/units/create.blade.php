@@ -89,5 +89,8 @@
         <textarea id="q2-explanation" name="questions[1][explanation]" rows="5"
           class="w-full rounded border border-gray-400 bg-white px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200"></textarea>
       </div>
+      <div class="flex justify-center">
+        <button class="rounded bg-blue-600 px-6 py-2 text-sm font-medium text-white hover:bg-blue-700">保存する</button>
+      </div>
     </form>
 </x-layout>
